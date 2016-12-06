@@ -1,0 +1,3 @@
+geth attach     查你的錢包資訊
+geth --datadir <some/location/where/to/create/chain> init genesis.json 建立私鍊 ex:geth /bc/testnet init genesis.json
+geth --identity "PrivateTest" -datadir "~/AppData/Roaming/Mist/binaries/Geth/unpacked/path/to/yourChainData/yourChainData" --nodiscover --networkid 9487 "~/AppData/Roaming/Mist/binaries/Geth/unpacked/path/to/" init CustomGenesis.json
